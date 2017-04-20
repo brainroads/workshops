@@ -1,0 +1,597 @@
+
+
+/* Sticky Header and Footer Styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 323px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 323px;
+  background-color: #EAD9BB;
+}
+
+body > .container-fluid {
+  padding: 0;
+  margin-top: 82px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* GENERAL
+-------------------------------------------------- */
+
+h1, h2, h3 {
+  font-family: 'Bitter', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+a {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* BUTTONS
+-------------------------------------------------- */
+
+.btn-buchheit, a.btn-buchheit, .sidebar a.btn-buchheit {
+  background-color: #D1232A;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 25px;
+  width: 100%;
+  margin-bottom: 15px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.btn-buchheit:hover, .btn-buchheit:focus, .btn-buchheit:active, a.btn-buchheit:hover, a.btn-buchheit:focus, a.btn-buchheit:active, .sidebar a.btn-buchheit:hover, .sidebar a.btn-buchheit:focus, .sidebar a.btn-buchheit:active {
+  background-color: #991D26;
+  color: #FFF;
+}
+
+a.btn-cta {
+  color: #F5EB00;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px 35px;
+  width: 100%;
+}
+
+a.btn-cta:hover, a.btn-cta:focus, a.btn-cta:active {
+  color: #F5EB00;
+}
+
+a.btn-cta i {
+  padding-left: 15px;
+}
+
+/* NAVBAR
+-------------------------------------------------- */
+.navbar-default {
+  background-color: #FFF;
+  border-bottom: 12px solid #D1232A;
+}
+
+.navbar-header {
+  width: auto;
+  float: left;
+}
+
+.navbar-right {
+  float: right !important;
+  margin-bottom: 0;
+}
+
+.navbar-brand img, .footer-brand img {
+  width: 190px;
+  height: auto;
+}
+
+.navbar-nav {
+  margin-bottom: 2px;
+}
+
+.navbar-nav > li {
+  float: left;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.navbar-nav > li:last-child {
+  padding-right: 10px;
+}
+
+.navbar-nav > li a {
+  line-height: 1.55em;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 7px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #222;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #D1232A;
+}
+
+.navbar-default .navbar-nav > li > a > i {
+  color: #D1232A;
+}
+
+.navbar-nav > li i {
+  font-size: 26px;
+}
+
+/* HEADER
+-------------------------------------------------- */
+
+.container-fluid .jumbotron {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+.jumbotron {
+  background-color: transparent;
+  border-bottom: 1px solid #D1232A;
+}
+
+.jumbotron p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.jumbotron-text {
+  position: relative;
+}
+
+.jumbotron-text .col-sm-5 {
+  position: relative;
+}
+
+.header-text {
+  background-color: #FFF;
+  padding: 25px 25px 10px;
+}
+
+/* WORKSHOPS
+-------------------------------------------------- */
+
+.workshop-group {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #D1232A;
+}
+
+.workshop-header {
+  padding-bottom: 15px;
+}
+
+.workshop-header h2 {
+  margin-top: 0;
+}
+
+.workshop-header img {
+  margin-bottom: 25px;
+}
+
+.workshop {
+  padding-top: 30px;
+  border-top: 1px solid #DDD;
+}
+
+.workshop p {
+  margin-bottom: 20px;
+}
+
+.workshop img {
+  margin-bottom: 10px;
+}
+
+.workshop-details p {
+  margin-bottom: 20px;
+}
+
+/* SIDEBAR
+-------------------------------------------------- */
+
+.sidebar a {
+  color: #D1232A;
+}
+
+.sidebar a:hover, .sidebar a:focus, .sidebar a:active {
+  color: #991D26;
+}
+
+.sidebar h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #D1232A;
+}
+
+.sidebar .row {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar img {
+  padding-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar li {
+  padding-bottom: 5px;
+}
+
+.sidebar ul a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar ul span {
+  font-size: 12px;
+  color: #999;
+}
+
+.sidebar .btn-buchheit {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.blog, .how-to, .events, .family {
+  background-color: #F5F5F5;
+  padding-top: 5px;
+}
+
+.family {
+  padding-bottom: 20px;
+}
+
+
+/* FOOTER
+-------------------------------------------------- */
+
+footer {
+  background: url('../img/background-footer.jpg') center bottom no-repeat;
+  font-family: 'Bitter', sans-serif;
+  color: #222;
+  padding-top: 25px;
+}
+
+footer a {
+  color: #D1232A;
+}
+
+footer a:hover, footer a:focus {
+  color: #75140C;
+}
+
+.find-a-store {
+  font-weight: bold;
+  line-height: 1.25em;
+  width: 110px;
+}
+
+.find-a-store i {
+  color: #D1232A;
+  font-size: 35px;
+  margin-right: 5px !important;
+}
+
+.hours {
+  text-align: right;
+}
+
+.social {
+  font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.social a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.copyright {
+  font-size: 10px;
+  margin-bottom: 25px;
+}
+
+.top-button {
+  margin: 0 auto;
+}
+
+.top-button img {
+  width: 78px;
+}
+
+/* MODALS
+-------------------------------------------------- */
+
+.modal-header {
+  background-color: #D1232A;
+  border-radius: 5px 5px 0 0;
+  color: #FFF;
+}
+
+.close {
+  color: #FFF;
+  opacity: 1;
+  font-size: 26px;
+}
+
+/* THE MEDIA QUERY SECTION
+-------------------------------------------------- */
+
+@media (max-width: 374px) {
+
+  .navbar-brand img, .footer-brand img {
+    width: 140px;
+    height: auto;
+    padding-top: 6px;
+  }
+
+  .footer-brand img {
+    padding-top: 0;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  body > .container-fluid {
+    margin-top: 127px;
+  }
+
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+  .jumbotron h1 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .jumbotron-text {
+    position: absolute;
+    top: 4%;
+  }
+
+  .btn-buchheit, a.btn-cta {
+    width: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .navbar .container {
+    padding-bottom: 10px;
+  }
+
+  .navbar-brand {
+    padding-top: 25px;
+  }
+
+  .navbar-brand img, .footer-brand img {
+    width: 300px;
+    height: auto;
+  }
+
+  .navbar-nav > li {
+    font-size: 13px;
+  }
+
+  .navbar-nav > li a {
+    padding-left: 23px;
+    padding-right: 10px;
+    padding-top: 26px;
+  }
+
+  .navbar-nav > li i {
+    font-size: 40px;
+  }
+
+  .start-your-flock {
+    position: absolute;
+    top: -205px;
+    left: 12.5%;
+  }
+
+  .what-you-get {
+    text-align: left;
+  }
+
+  .chick-facts {
+    padding-bottom: 30px;
+  }
+
+  .fact {
+    background-color: #F5F5F5;
+    padding: 15px;
+    margin-bottom: 25px;
+  }
+
+  .contact {
+    padding-left: 36px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  body {
+    margin-bottom: 340px;
+  }
+
+  .sidebar a.btn-buchheit {
+    font-size: 14px;
+  }
+
+  .footer {
+    height: 340px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .fact h3 {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  body {
+    margin-bottom: 170px;
+  }
+
+  .jumbotron .container {
+    max-width: 90%;
+  }
+
+  .jumbotron-text {
+    top: 8%;
+    left: 5%;
+  }
+
+  .footer {
+    height: 170px;
+  }
+
+  .footer-brand {
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .find-a-store {
+    width: 270px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  .find-a-store p {
+    margin-bottom: 0;
+  }
+
+  .find-a-store i {
+    font-size: 58px;
+    padding-right: 10px;
+  }
+
+  .hours {
+    text-align: left;
+  }
+
+  .social {
+    padding-top: 0;
+    padding-bottom: 35px;
+  }
+
+  .back-to-top {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+
+  .jumbotron-text {
+    left: 5%;
+    top: 10%;
+  }
+
+}
+
+
+@media (min-width: 1350px) {
+
+  .jumbotron-text {
+    left: 10%;
+    top: 12%;
+  }
+
+}
+
+@media (min-width: 1650px) {
+
+  .jumbotron-text {
+    left: 18%;
+    top: 15%;
+  }
+
+}
